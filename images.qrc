@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>custom.png</file>
+        <file>bb.png</file>
+        <file>hh.png</file>
+        <file>jj.png</file>
+        <file>nn.png</file>
+        <file>yy.png</file>
+        <file>angel.jpg</file>
+        <file>feiyang.jpg</file>
+        <file>pizicai.jpg</file>
+        <file>QQ.jpg</file>
+    </qresource>
+</RCC>

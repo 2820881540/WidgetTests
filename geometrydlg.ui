@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeometryDlg</class>
+ <widget class="QDialog" name="GeometryDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+  </property>
+  <widget class="QLabel" name="xlabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ylabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>35</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="frameGeolabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>60</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="poslabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>85</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="geolabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>110</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="widthlabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>135</y>
+     <width>191</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heightlabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>159</y>
+     <width>191</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rectlabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>183</y>
+     <width>191</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sizelabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>207</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>159</width>
+     <height>207</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>x():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>y():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>frameGeometry():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>pos():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>geometry():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>width():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Arial&quot;;
+font: 12pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>height():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="text">
+     <string>rect():</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="text">
+     <string>size():</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
